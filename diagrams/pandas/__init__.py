@@ -1,7 +1,13 @@
-from diagrams import Node
+"""
+Provides a set of tools to visualise pandas relationships
+
+"""
 
 
-class _Programming(Node):
+from digrams import programming
+
+
+class _Pandas(Database):
     _provider = "pandas"
     _icon_dir = "resources/pandas"
 
